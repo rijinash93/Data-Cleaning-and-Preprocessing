@@ -4,13 +4,40 @@
  Data set: Medical Appointment No Shows
  
  Tools: Excel / Python (Pandas)
- Deliverables: Cleaned dataset + short summary of changes
- Hints / Mini Guide:
- Identify and handle missing values using .isnull() in Python or filters in Excel.
- Remove duplicate rows using .drop_duplicates() or Excel’s “Remove Duplicates”.
- Standardize text values like gender, country names, etc.
- Convert date formats to a consistent type (e.g., dd-mm-yyyy).
- Rename column headers to be clean and uniform (e.g., lowercase, no spaces).
- Check and fix data types (e.g., age should be int, date as datetime)
 
- 
+ Data Cleaning Summary
+Loaded the dataset
+The data was read using Python's pandas library.
+
+Checked for missing values
+There were no missing (null) values in the dataset.
+
+Removed duplicate rows
+The dataset was checked for duplicates. None were found, so no rows were removed.
+
+Standardized text columns
+
+Gender values were converted to uppercase (e.g., "F", "M").
+
+"No-show" values were changed to lowercase ("yes", "no") for consistency.
+
+Neighbourhood names were converted to title case (e.g., "Maria Ortiz").
+
+Converted date columns
+
+The "ScheduledDay" and "AppointmentDay" columns were changed from text to proper date format to enable date-based operations.
+
+Cleaned column names
+
+All column names were converted to lowercase.
+
+Spaces were replaced with underscores.
+
+Example: "AppointmentDay" became "appointmentday", and "No-show" became "no-show".
+
+Checked data types
+
+Age is confirmed as integer.
+
+Date columns are in datetime format.
+
