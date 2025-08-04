@@ -1,4 +1,7 @@
+
  Objective: Clean and prepare a raw dataset (with nulls, duplicates, inconsistent formats).
+
+ Data set: Medical Appointment No Shows
  
  Tools: Excel / Python (Pandas)
  Deliverables: Cleaned dataset + short summary of changes
