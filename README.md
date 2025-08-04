@@ -6,7 +6,8 @@
  Tools: Excel / Python (Pandas)
 
  Data Cleaning Summary
-Loaded the dataset
+ 
+ Loaded the dataset
 The data was read using Python's pandas library.
 
 Checked for missing values
